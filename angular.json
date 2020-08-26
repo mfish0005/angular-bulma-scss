@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-bulma-scss"
+    }
+  },
+  "defaultProject": "angular-bulma-scss",
+  "cli": {
+    "analytics": false
+  }
 }

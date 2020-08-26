@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+// We only need Bulma's functions because some variables use them in derived.scss.
+// If you delete those variables in your implementation then remove this
+@import "~bulma/sass/utilities/functions.sass";
+
+// Import your initial & derived variables plus any other global styles
+@import './assets/styles/index.scss';
+
+// Import Bulma's styles last
+@import "~bulma";
