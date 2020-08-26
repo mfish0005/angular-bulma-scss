@@ -97,8 +97,8 @@ $size-medium: $size-5;
 $size-large : $size-4;
 
 // Lists and maps
-$custom-colors: null;
-$custom-shades: null;
+$custom-colors: ("mint-green": (#98ff98));
+$custom-shades: ("grey-super-freakin-dark": (#000111));
 
 $colors: mergeColorMaps(
 (

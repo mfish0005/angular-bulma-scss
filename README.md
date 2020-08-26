@@ -1,6 +1,7 @@
 # Summary
 
 This is an example project that has Bulma & SCSS installed ready to be themed.  It's meant to be a reference on how to configure Bulma with Angular using SCSS.
+I will try to keep it updated with the latest Angular version but honestly it really shouldn't matter.  If you follow the steps below it should work regardless.
 
 ## Getting Started
 
@@ -24,6 +25,10 @@ Any that you don't plan on changing can be removed.
 
 ## Adding Custom Colors/Shades
 Bulma comes with color helpers that let you do things like `html <p class="has-text-green">` and `html <p class="has-text-grey-darker">`.
-If you want to be able to do stuff like `has-text-my-custom-color` or `has-text-grey-super-freakin-dark` do the following:
-Declare a custom color: `$mintGreen`.
-Add it to the `$custom-colors` or `$custom-shades` map in `derived.scss`.
+If you want to be able to do stuff like `has-text-mint-green` or `has-text-grey-super-freakin-dark` do the following:
+Declare a custom color: `$mintGreen` or a custom shade: `$greySuperFreakinDark`.
+Add it to the `$custom-colors` or `$custom-shades` map in `derived.scss`:
+```scss
+$custom-colors: ("mint-green": ($mintGreen));
+$custom-shades: ("grey-super-freakin-dark": ($greySuperFreakinDark));
+```
