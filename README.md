@@ -1,7 +1,7 @@
 # Summary
 
 This is an example project that has Bulma & SCSS installed ready to be themed.  It's meant to be a reference on how to configure Bulma with Angular using SCSS.
-I will try to keep it updated with the latest Angular version but honestly it really shouldn't matter.  If you follow the steps below it should work regardless.
+I will try to keep it updated with the latest versions but honestly it really shouldn't matter.  If you follow the steps below it should work regardless.
 
 ## Getting Started
 
